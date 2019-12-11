@@ -3,3 +3,12 @@
 @tailwind components;
 
 @tailwind utilities;
+
+
+.btn {
+  @apply font-bold py-2 rounded;
+}
+
+.btn-red {
+  @apply bg-red-200 text-white;
+}

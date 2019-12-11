@@ -601,6 +601,10 @@ video {
 
 .container {
   width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
 }
 
 @media (min-width: 640px) {
@@ -11399,6 +11403,18 @@ video {
 
 .z-auto {
   z-index: auto;
+}
+
+.btn {
+  font-weight: 700;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.btn-red {
+  background-color: #fed7d7;
+  color: #fff;
 }
 
 @media (min-width: 640px) {
